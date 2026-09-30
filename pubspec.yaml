@@ -24,7 +24,7 @@ dependencies:
   dart_des: ^1.0.2
 
   # Multi-Source Streaming (YouTube Engine Fallback)
-  youtube_explode_dart: ^2.2.0
+  youtube_explode_dart: ^3.1.0
 
   # Local Database / Cache
   hive: ^2.2.3
