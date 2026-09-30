@@ -1,0 +1,44 @@
+name: onemusic
+description: "A professional ad-free music streaming app."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Headless YouTube Engine (Bypasses BotGuard & 403 blocks)
+  flutter_inappwebview: ^6.1.5
+
+  # Core Audio & Background Service
+  just_audio: ^0.9.46
+  audio_service: ^0.18.18
+  just_audio_background: ^0.0.1-beta.15
+
+  # Network & Parsing
+  http: ^1.2.0
+  dart_des: ^1.0.2
+
+  # Multi-Source Streaming (YouTube Engine Fallback)
+  youtube_explode_dart: ^2.2.0
+
+  # Local Database / Cache
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  path_provider: ^2.1.2
+
+  # UI / Image Caching
+  cached_network_image: ^3.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
