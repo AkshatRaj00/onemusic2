@@ -1,0 +1,10 @@
+﻿version: '1'
+ignore:
+  - 'build/**'
+  - '.dart_tool/**'
+rule_settings:
+  python:
+    enabled: false
+dart:
+  metrics:
+    quality_threshold: 70
