@@ -15,7 +15,7 @@ dependencies:
   flutter_inappwebview: ^6.1.5
 
   # Core Audio & Background Service
-  just_audio: ^0.9.46
+  just_audio: ^0.10.6
   audio_service: ^0.18.18
   just_audio_background: ^0.0.1-beta.15
 
