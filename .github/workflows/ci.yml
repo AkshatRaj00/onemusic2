@@ -1,4 +1,4 @@
-﻿name: OneMusic CI Pipeline
+name: OneMusic CI Pipeline
 
 on:
   push:
@@ -13,7 +13,7 @@ jobs:
 
     steps:
       - name: Checkout Source Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Java Environment
         uses: actions/setup-java@v4
