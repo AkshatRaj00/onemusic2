@@ -1,4 +1,4 @@
-﻿name: Daily Repository Health Check
+name: Daily Repository Health Check
 
 on:
   schedule:
@@ -15,7 +15,7 @@ jobs:
 
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: System Health Check
         run: |
