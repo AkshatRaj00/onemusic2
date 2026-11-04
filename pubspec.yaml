@@ -32,7 +32,7 @@ dependencies:
   path_provider: ^2.1.2
 
   # UI / Image Caching
-  cached_network_image: ^4.0.5
+  cached_network_image: ^4.0.6
 
 dev_dependencies:
   flutter_test:
